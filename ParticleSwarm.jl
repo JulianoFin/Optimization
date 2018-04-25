@@ -1,4 +1,4 @@
-        function ParticleSwarm(Func::Function,nVariables,nParticles,Range;InertialW=1.0,InertialDump = 0.9,PersonalW=2.0,GlobalW=2.0,MaxIter=100,GlobalPar=false)
+    function ParticleSwarm(Func::Function,nVariables,nParticles,Range;InertialW=1.0,InertialDump = 0.9,PersonalW=2.0,GlobalW=2.0,MaxIter=100,GlobalPar=false)
     #Func - Function to be minimized
     #nVariables - Number of Problem's variables
     #nParticles - Number of used particles
